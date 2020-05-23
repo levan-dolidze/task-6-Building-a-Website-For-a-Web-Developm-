@@ -1,0 +1,107 @@
+head,body {
+
+    font-family: 'Roboto';
+    text-transform: capitalize;
+    
+}
+
+.link {
+    
+    padding-top: 2%;
+    background-color: blue;
+    height: 50px;
+    text-align: right;
+    padding-right: 2%;
+    color: white;
+    width: 100vw ;
+}
+
+.home,.aboutus,.contactus{
+    color: white;
+    margin: 5px;
+    
+}
+
+.fpageh2{
+    justify-content: center;
+    margin: 3px;
+}
+
+
+#signup
+{
+    
+    justify-content: center;
+    
+    
+}
+.formfild
+{
+    padding: 8px;
+    width: 100%;
+    border-radius: 4px;
+    border:1px solid black
+    
+    
+
+}
+
+.formgroup{
+    padding: 4px;
+    width: 400px;
+    
+    
+}
+
+
+
+
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+header{
+    text-align: right;
+    background-color: blue;
+    padding: 30px;
+}
+
+main{
+
+    width: 90vh;
+    margin: 0 auto;
+    padding: 30px 20px;
+    min-height: calc(100vh - 79px - 155px);
+    overflow-y: auto;
+    height: 100px;
+    
+}
+footer{
+
+
+    text-align: left;
+    background-color: blue;
+    padding: 30px;
+}
+.footerlink{
+    flex-direction: column;
+    color: white;
+}
+#home,#aboutus,#contactus{
+    color: white;
+    padding-left: 100px;
+   
+}
+#mail,#mob{
+    color: white;
+    text-align: center;
+   
+}
+#envelope{
+    font-size: 30px;
+    color: white;
+    padding-left: 49%;
+}

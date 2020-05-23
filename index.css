@@ -1,0 +1,96 @@
+
+head,body {
+
+    font-family: 'Roboto';
+    text-transform: capitalize;
+   
+   
+    
+    
+}
+
+.textbox{
+    background-color: black;
+    color: white;
+    width: 1000px;
+    height: 180px;
+    text-align: center;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding-top: 60px;
+
+}
+
+#title{
+    text-align: center;
+}
+
+
+
+.fpageh,.fpageh1,.fpageh2{
+    text-align: center;
+}
+
+#table1,#table1 th,#table1 td
+{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 8px;
+    margin: auto;
+    text-align: center;
+  
+}
+
+
+.home,.aboutus,.contactus{
+    color: white;
+    margin: 5px;
+
+}
+
+
+header{
+    text-align: right;
+    background-color: blue;
+    padding: 30px;
+}
+
+main{
+
+    overflow-y: auto;
+    height: 100px;
+    margin: 0 auto;
+    min-height: calc(100vh - 79px - 185px);
+    padding: 30px 20px;
+    
+   
+
+}
+footer{
+
+
+    text-align: left;
+    background-color: blue;
+    padding: 30px;
+}
+.footerlink{
+    flex-direction: column;
+    color: white;
+}
+#home,#aboutus,#contactus{
+    color: white;
+    padding-left: 100px;
+    
+}
+#mail,#mob{
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+   
+}
+#envelope{
+    font-size: 30px;
+    color: white;
+    padding-left: 49%;
+}
+    
